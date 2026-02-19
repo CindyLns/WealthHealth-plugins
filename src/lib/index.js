@@ -1,2 +1,1 @@
-export { TextInput } from './TextInput'
-export { ModalDialog } from './Test'
+export { ModalDialog } from './Modal'

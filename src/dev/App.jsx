@@ -7,9 +7,6 @@ export default function App() {
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
 
-  const afterOpenModal = () => {
-    console.log('Modal ouverte');
-  };
 
   return (
     <div>
@@ -19,7 +16,7 @@ export default function App() {
         isOpen={isOpen}
         openModal={openModal}
         closeModal={closeModal}
-        afterOpenModal={afterOpenModal}
+        title="Titre de la modale"
         message="Ceci est un message dans la modale"
       />
     </div>
