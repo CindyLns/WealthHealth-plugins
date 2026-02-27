@@ -1,3 +1,5 @@
+import '../index.css';
+
 export function ModalDialog ({ isOpen, title, closeModal, message }) {
     return (
         <div className="modal">
