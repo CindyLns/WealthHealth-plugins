@@ -1,12 +1,16 @@
 {
-  "name": "@cindy/my-react-lib",
+  "name": "react-modal-cindy",
   "version": "0.1.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint ."
   },
+  
   
   "main": "./dist/my-react-lib.umd.cjs",
   "module": "./dist/my-react-lib.js",
